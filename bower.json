@@ -1,0 +1,21 @@
+{
+  "name": "sc2_hotkeys",
+  "version": "0.0.0",
+  "authors": [
+    "Dustin Morrill <dmorrill10@gmail.com>"
+  ],
+  "license": "MIT",
+  "homepage": "cs.ualberta.ca/~morrill",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "vendor/assets/components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~4.0.0-alpha"
+  }
+}

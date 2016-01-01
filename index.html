@@ -1,0 +1,67 @@
+---
+layout: default
+---
+
+<div class='app'>
+  <table class='hotkeys'>
+  </table>
+</div>
+
+<script>
+  $(document).ready(function() {
+    var adjustPositionAfterScaling = function(scaledElement, scaling, topOffset, containingElement) {
+      var scaledHeight = scaledElement.height() * scaling;
+      return scaledElement.css({top: -(Math.floor((scaledElement.height() - scaledHeight) / 2.0) - topOffset), left: Math.floor((containingElement.width() - scaledElement.width()) / 2.0)});
+    };
+    var adjustScaleOnceOfElement = function(elementToScale) {
+      var windowBuffer = 1;
+      // @todo
+      var widthRatio = ($(window).width() - windowBuffer - 0) / elementToScale.width();
+      var heightRatio = ($(window).height() - windowBuffer - 0) / elementToScale.height();
+
+      var smallestRatio = Math.min(heightRatio, widthRatio);
+
+      if (smallestRatio < 1) {
+        elementToScale.css('transform', 'scale(' + smallestRatio.toString() + ')');
+        adjustPositionAfterScaling(elementToScale, smallestRatio, 0, $(window));
+      }
+      return smallestRatio;
+    };
+    var makeTable = function(container, data, num_columns, column_width) {
+        var table = $(".hotkeys").empty();
+        while (data.length > 0) {
+          var row = $("<tr/>");
+          for (var i = 0; i < num_columns; ++i) {
+            if (data.length <= 0) {
+              break;
+            }
+            var pair_data = data.shift();
+            var left_column = $("<td/>");
+            var left_div = $("<div/>").addClass('hotkey').width(column_width);
+            row.append(left_column.append(left_div.text(pair_data['desc'])));
+            var right_column = $("<td/>");
+            var right_div = $("<div/>").addClass('hotkey').width(column_width);
+            row.append(right_column.append(right_div.text(pair_data['key'])));
+          }
+          table.append(row);
+        }
+        return container.append(table);
+    };
+    var fitHotkeysToViewport = function(hotkeys, pair_width) {
+      var w_s = window.innerWidth
+      var num_pairs = Math.max(Math.floor(w_s / pair_width), 1);
+      var num_rows = Math.ceil(hotkeys.length / (0.0 + num_pairs));
+
+      makeTable($('.app'), JSON.parse(JSON.stringify(hotkeys)), num_pairs, pair_width / 2.0);
+      return adjustScaleOnceOfElement($('.app'));
+    };
+    (function() {
+      var pair_width = 400.0;
+      var hotkeys = {{ site.data.hotkeys | jsonify }};
+      $(window).resize(function() {
+        return fitHotkeysToViewport(hotkeys, pair_width);
+      });
+      fitHotkeysToViewport(hotkeys, pair_width);
+    })();
+  });
+</script>
