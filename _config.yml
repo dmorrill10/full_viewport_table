@@ -13,5 +13,5 @@ markdown: kramdown
 sass:
   sass_dir: _sass
   style: compressed
-gems:
-  - jekyll-coffeescript
+baseurl: "/full_viewport_table"
+url: "http://dmorrill10.github.io"
