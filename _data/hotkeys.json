@@ -1,34 +1,66 @@
 [
-{
-    "desc": "View base",
-    "key": "CTRL + SPACE"
-  },
-{
-    "desc": "View base",
-    "key": "CTRL + SPACE"
-  },
-{
-    "desc": "View base",
-    "key": "CTRL + SPACE"
-  },
-{
-    "desc": "View base",
-    "key": "CTRL + SPACE"
-  },
-{
-    "desc": "View base",
-    "key": "CTRL + SPACE"
-  },
-{
-    "desc": "View base",
-    "key": "CTRL + SPACE"
+  {
+    "desc": "TODO",
+    "key": "W,M,U,M,P?,M"
   },
   {
-    "desc": "View base",
+    "desc": "Append to action a",
+    "key": "SHIFT + a"
+  },
+  {
+    "desc": "Town Camera",
     "key": "CTRL + SPACE"
   },
   {
     "desc": "Select WarpGates",
     "key": "Y"
+  },
+  {
+    "desc": "Create Location i",
+    "key": "CTRL + SHIFT + Fi"
+  },
+  {
+    "desc": "Goto Location i",
+    "key": "CTRL + Fi"
+  },
+  {
+    "desc": "Goto Location i",
+    "key": "SHIFT + Fi"
+  },
+  {
+    "desc": "Select Idle Worker",
+    "key": "F1"
+  },
+  {
+    "desc": "Select All Idle Workers",
+    "key": "CTRL + F1"
+  },
+  {
+    "desc": "Select All War Units",
+    "key": "F2"
+  },
+  {
+    "desc": "Select Idle Worker",
+    "key": "F1"
+  },
+  {
+    "desc": "Create CG i",
+    "key": "CTRL + i"
+  },
+  {
+    "desc": "Append to CG i",
+    "key": "SHIFT + i"
+  },
+  {
+    "desc": "Select CG i",
+    "key": "i"
+  },
+  {
+    "desc": "Goto CG i",
+    "key": "i, i"
+  },
+  {
+    "desc": "Attack Move",
+    "key": "T + LC"
   }
 ]
