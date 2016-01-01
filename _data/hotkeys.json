@@ -12,20 +12,28 @@
     "key": "CTRL + SPACE"
   },
   {
-    "desc": "Select WarpGates",
-    "key": "Y"
+    "desc": "Goto Last Alert",
+    "key": "SPACE"
   },
   {
-    "desc": "Create Location i",
-    "key": "CTRL + SHIFT + Fi"
+    "desc": "Center on Selection",
+    "key": "CTRL + F"
   },
   {
-    "desc": "Goto Location i",
-    "key": "CTRL + Fi"
+    "desc": "Lock Cam",
+    "key": "CTRL + SHIFT + F"
   },
   {
-    "desc": "Goto Location i",
-    "key": "SHIFT + Fi"
+    "desc": "Create Location i + 1",
+    "key": "CTRL + (J+i)"
+  },
+  {
+    "desc": "Goto Location i + 1",
+    "key": "(J+i)"
+  },
+  {
+    "desc": "Ping",
+    "key": "ALT + LC"
   },
   {
     "desc": "Select Idle Worker",
@@ -40,16 +48,20 @@
     "key": "F2"
   },
   {
-    "desc": "Select Idle Worker",
-    "key": "F1"
-  },
-  {
     "desc": "Create CG i",
     "key": "CTRL + i"
   },
   {
     "desc": "Append to CG i",
     "key": "SHIFT + i"
+  },
+  {
+    "desc": "Reset CG i",
+    "key": "ALT + i"
+  },
+  {
+    "desc": "Reset->Add to CG i",
+    "key": "ALT + SHIFT + i"
   },
   {
     "desc": "Select CG i",
@@ -60,7 +72,19 @@
     "key": "i, i"
   },
   {
+    "desc": "Next Subgroup",
+    "key": "TAB"
+  },
+  {
+    "desc": "Prev Subgroup",
+    "key": "SHIFT + TAB"
+  },
+  {
     "desc": "Attack Move",
     "key": "T + LC"
+  },
+  {
+    "desc": "Select WarpGates",
+    "key": "Y"
   }
 ]
