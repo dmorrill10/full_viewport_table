@@ -1,90 +1,86 @@
 [
   {
-    "desc": "TODO",
-    "key": "W,M,U,M,P?,M"
+    "desc": "Upgrade Q",
+    "key": "CTRL + Q"
   },
   {
-    "desc": "Append to action a",
-    "key": "SHIFT + a"
+    "desc": "Upgrade W",
+    "key": "CTRL + W"
   },
   {
-    "desc": "Town Camera",
-    "key": "CTRL + SPACE"
+    "desc": "Upgrade E",
+    "key": "CTRL + E"
   },
   {
-    "desc": "Goto Last Alert",
+    "desc": "Upgrade R",
+    "key": "CTRL + R"
+  },
+  {
+    "desc": "Attack move",
+    "key": "A, X, SHIFT + right click"
+  },
+  {
+    "desc": "Command pet",
+    "key": "ALT + right click"
+  },
+  {
+    "desc": "Stop",
+    "key": "S"
+  },
+  {
+    "desc": "Hold",
+    "key": "H"
+  },
+  {
+    "desc": "Show map",
+    "key": "M, ,"
+  },
+  {
+    "desc": "Show champion stats",
+    "key": "C"
+  },
+  {
+    "desc": "Toggle alert ping cursor",
+    "key": "G"
+  },
+  {
+    "desc": "Lock camera on champion",
+    "key": "Y"
+  },
+  {
+    "desc": "Center camera on champion",
     "key": "SPACE"
   },
   {
-    "desc": "Center on Selection",
+    "desc": "Show match stats",
+    "key": "O, Tab"
+  },
+  {
+    "desc": "Retreat ping",
+    "key": "V, CTRL + left click"
+  },
+  {
+    "desc": "Show item shop",
+    "key": "P"
+  },
+  {
+    "desc": "Ping location",
+    "key": "Alt + left click"
+  },
+  {
+    "desc": "Create chat cursor",
+    "key": "ENTER"
+  },
+  {
+    "desc": "Create all-chat cursor",
+    "key": "SHIFT + ENTER"
+  },
+  {
+    "desc": "Show chat history",
     "key": "CTRL + F"
   },
   {
-    "desc": "Lock Cam",
-    "key": "CTRL + SHIFT + F"
-  },
-  {
-    "desc": "Create Location i + 1",
-    "key": "CTRL + (J+i)"
-  },
-  {
-    "desc": "Goto Location i + 1",
-    "key": "(J+i)"
-  },
-  {
-    "desc": "Ping",
-    "key": "ALT + LC"
-  },
-  {
-    "desc": "Select Idle Worker",
-    "key": "F1"
-  },
-  {
-    "desc": "Select All Idle Workers",
-    "key": "CTRL + F1"
-  },
-  {
-    "desc": "Select All War Units",
-    "key": "F2"
-  },
-  {
-    "desc": "Create CG i",
-    "key": "CTRL + i"
-  },
-  {
-    "desc": "Append to CG i",
-    "key": "SHIFT + i"
-  },
-  {
-    "desc": "Reset CG i",
-    "key": "ALT + i"
-  },
-  {
-    "desc": "Reset->Add to CG i",
-    "key": "ALT + SHIFT + i"
-  },
-  {
-    "desc": "Select CG i",
-    "key": "i"
-  },
-  {
-    "desc": "Goto CG i",
-    "key": "i, i"
-  },
-  {
-    "desc": "Next Subgroup",
-    "key": "TAB"
-  },
-  {
-    "desc": "Prev Subgroup",
-    "key": "SHIFT + TAB"
-  },
-  {
-    "desc": "Attack Move",
-    "key": "T + LC"
-  },
-  {
-    "desc": "Select WarpGates",
-    "key": "Y"
+    "desc": "Toggle ignore minion targeting when casting",
+    "key": "~"
   }
 ]

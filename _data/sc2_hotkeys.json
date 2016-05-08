@@ -1,0 +1,90 @@
+[
+  {
+    "desc": "TODO",
+    "key": "W,M,U,M,P?,M"
+  },
+  {
+    "desc": "Append to action a",
+    "key": "SHIFT + a"
+  },
+  {
+    "desc": "Town Camera",
+    "key": "CTRL + SPACE"
+  },
+  {
+    "desc": "Goto Last Alert",
+    "key": "SPACE"
+  },
+  {
+    "desc": "Center on Selection",
+    "key": "CTRL + F"
+  },
+  {
+    "desc": "Lock Cam",
+    "key": "CTRL + SHIFT + F"
+  },
+  {
+    "desc": "Create Location i + 1",
+    "key": "CTRL + (J+i)"
+  },
+  {
+    "desc": "Goto Location i + 1",
+    "key": "(J+i)"
+  },
+  {
+    "desc": "Ping",
+    "key": "ALT + LC"
+  },
+  {
+    "desc": "Select Idle Worker",
+    "key": "F1"
+  },
+  {
+    "desc": "Select All Idle Workers",
+    "key": "CTRL + F1"
+  },
+  {
+    "desc": "Select All War Units",
+    "key": "F2"
+  },
+  {
+    "desc": "Create CG i",
+    "key": "CTRL + i"
+  },
+  {
+    "desc": "Append to CG i",
+    "key": "SHIFT + i"
+  },
+  {
+    "desc": "Reset CG i",
+    "key": "ALT + i"
+  },
+  {
+    "desc": "Reset->Add to CG i",
+    "key": "ALT + SHIFT + i"
+  },
+  {
+    "desc": "Select CG i",
+    "key": "i"
+  },
+  {
+    "desc": "Goto CG i",
+    "key": "i, i"
+  },
+  {
+    "desc": "Next Subgroup",
+    "key": "TAB"
+  },
+  {
+    "desc": "Prev Subgroup",
+    "key": "SHIFT + TAB"
+  },
+  {
+    "desc": "Attack Move",
+    "key": "T + LC"
+  },
+  {
+    "desc": "Select WarpGates",
+    "key": "Y"
+  }
+]
